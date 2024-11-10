@@ -14,12 +14,12 @@ public class TimeFormat {
 		int minutes = Integer.parseInt("" + args[0].charAt(3) + args[0].charAt(4));
 		String period;
 		if (hours>=12){
-			period= "pm";
+			period= "PM";
 			if (hours>12) {
 			hours-=12;
 			}
 		} else {
-			period= "am";
+			period= "AM";
 			if (hours==0){
 				hours=12;
 			}

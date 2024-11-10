@@ -21,7 +21,7 @@ public class TimeFormat {
 		} else {
 			period= "AM";
 			if (hours==0){
-				hours=12;
+				hours=0;
 			}
 		}
 		System.out.println(hours + ":" + (minutes < 10 ? "0" + minutes : minutes) + " " + period);

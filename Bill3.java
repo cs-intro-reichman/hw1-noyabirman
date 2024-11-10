@@ -7,7 +7,7 @@ class Bill3 {
 
 	double bill3=Math.ceil((double)bill/3);
 
-	System.out.println("dear " + name1 + ", " + name2 + " and " + name3 + ", please pay " + bill3 + " Shekels");	
+	System.out.println("dear " + name3 + ", " + name2 + " and " + name1 + ", please pay " + bill3 + " Shekels each.");	
 	}
 	
 }
